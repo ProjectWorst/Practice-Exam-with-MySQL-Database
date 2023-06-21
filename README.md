@@ -1,8 +1,8 @@
 README File:
 
-# PMP Practice Exam Questions
+# Practice Exam with MySQL Database
 
-This project is designed to facilitate a PMP (Project Management Professional) exam by presenting a series of questions and evaluating the user's answers. The questions are fetched from a MySQL database, and the user interacts with the program through the console.
+To help me with my studies and continue to practice programming with Python, I created this project to facilitate a PMP (Project Management Professional) practice exam by presenting a series of questions and evaluating the user's answers. The questions are fetched from a MySQL database, and the user interacts with the program through the console.
 
 ## Prerequisites
 
