@@ -1,4 +1,4 @@
-#PMP Exam questions
+#Pratice Exam questions with MySQL Database
 
 # The random module is used for generating random numbers or making random choices.
 import random
