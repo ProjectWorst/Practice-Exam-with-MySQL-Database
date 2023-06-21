@@ -1,14 +1,15 @@
 #Pratice Exam questions with MySQL Database
 
 # The random module is used for generating random numbers or making random choices.
+# For this program, the purpose would be to jump randomly to different questions and also randomize the order of answer choices if desired.  
 import random
 # The mysql.connector module is used for connecting to a MySQL database and executing SQL queries.
 import mysql.connector
 
-# This code defines a class called 'PMPQuestion' to represent a single PMP (Project Management Professional) question.
+# Define a class called 'PMPQuestion' to represent a single PMP (Project Management Professional) question.
 class PMPQuestion:
     
-    # The class has an '__init__' method that initializes the question object with several attributes: 'question_number', 'question', 'choices', 'correct_answer', and 'explanation'.
+    # Use an '__init__' method that initializes the question object with several attributes: 'question_number', 'question', 'choices', 'correct_answer', and 'explanation'.
     def __init__(self, question_number, question, choices, correct_answer, explanation):
         self.question_number = question_number
         self.question = question
@@ -35,7 +36,7 @@ class PMPQuestion:
         print()
         return is_correct
 
-# This 'fetch_questions_from_database' function connects to a MySQL database and fetches PMP questions along with their details from a table named question.
+# This 'fetch_questions_from_database' function connects to a MySQL database and fetches PMP questions along with their details from a table named 'question'.
 # This table contains all PMP question numbers, questions, choices, correct choice, and explanations for each correct choice. 
 def fetch_questions_from_database():
     # Connect to your MySQL database
